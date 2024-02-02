@@ -30,12 +30,17 @@ I'm currently exploring Python, Django , and I'm excited to deepen my knowledge 
 ## How to run this project
 
 Step1: Create a virtual environment
+
 Step2: Activate the virtual environment
+
 Step3: Download and install the requirements.txt using pip command
+
 Step4: run the Server by running the comman "Python manage.py runserver"
 
 ## How to stop the project 
+
 Step1: Kill the server by pressing "ctrl+c"
+
 Step2: Deactivate the virtual environment
 
 
