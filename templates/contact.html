@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Royal Hotel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #3498db, #e74c3c);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 80px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #ecf0f1;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #ecf0f1;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+        }
+
+        input[type="submit"] {
+            background-color: #e74c3c;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #c0392b;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            color: #e74c3c;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 18px;
+            color: #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us for any inquiries or assistance.</p>
+
+        <form action="#" method="post">
+            <label for="name" style="color: #3498db;">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name" style="color: #3498db;">Your E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="name" style="color: #3498db;">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="name" style="color: #3498db;">Query:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>Contact Information</h2>
+        <p class="contact-info">If you prefer other means of communication, you can reach us at:</p>
+        <p class="contact-info">Email: info@Royalhotel.com</p>
+        <p class="contact-info">Phone: +123 456 7890</p>
+        <p class="contact-info">Address: 123 Luxury Street, Cityville, Country</p>
+    </div>
+</body>
+
+</html>
